@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+#contenido{
+            width: 1036px;
+            margin: 0px auto;
+}
+
+/*--------MENÚ-------*/
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 800px;
+  ;
+}
+#menu li {
+     text-align: center;
+     margin: 25px;
+     padding: 15px;
+     font-size: 15px;
+     
+}
+
+h1{
+    display: none;
+}
+
+header > ul#menu , a , h1{
+    color:white;
+    text-decoration: none;
+    font-family: monospace, sans-serif;
+    text-transform: uppercase;
+    line-height:25px;
+    text-align:unset;
+    
+  
+}
+
+body header{
+    
+    background-image: url(../images/banner_ps.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 436px;
+    background-color: black;
+    
+}
+
+cite{
+   
+    font: bold normal normal 20px/30px Tahoma, sans-serif;
+}
+
+
+ul{
+    list-style-position: inside;
+   padding: 20px;
+}
+
+
+a:hover{
+    color: #D707F2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*--------BODY-------*/
+
+body div main{
+    background-color:#F2DC6D ;
+    padding: 0;
+    margin: 0px;
+    list-style-position:inside;       
+}
+   
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../images/fondo.jpg);
+  
+}
+
+div.guante{
+    display: flex;
+    float:right;
+    margin: 50px;
+}
+
+h2{
+    font: bold normal normal 20px 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color:#242D40 ;
+    margin: 0px;
+    padding: 30px;
+   
+}
+q{
+    font: italic normal normal 18px 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    margin: 15px;
+    }
+
+p, dl, main#home > ul > p , ul#habilidades, section> p,dl{
+
+    font: normal normal normal 18px/30px Tahoma, sans-serif; 
+    color: #464A8C;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+h3, h4{
+    
+    font: bold normal normal 18px 'Trebuchet MS', sans-serif;
+    margin: 30px;
+    padding: 0;
+}
+
+
+
+ul#ref>li>a{
+    color: rgb(94, 7, 55);
+    margin: 0;
+    padding: 0;
+}
+
+#ref>li>a:hover{
+    color:rgb(4, 94, 79);
+    margin: 0;
+    padding: 0;
+}
+
+/*--------FOOTER-------*/
+
+footer{
+    background-color: #82D9D9;
+    background-size: cover;
+    height:280px;
+}
+
+footer >div.alumna{
+    float: left;
+    padding: 15px;
+    height: 250px;
+    background-color: #82D9D9;
+    height: 250px;
+    
+}
+footer>ul>li>a#mail{
+    color: black;
+    margin: 0;
+    padding: 0
+}
+
+footer>ul>li>a#mail:hover{
+    color:rgb(135, 55, 201);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div.novelas{
+    margin: 100px;
+    padding: 10px;
+
+}
+
+footer ul{
+   padding: 100px;
+   font-family: monospace, sans-serif ;
+}
